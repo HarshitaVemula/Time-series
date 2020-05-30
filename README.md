@@ -23,8 +23,7 @@ The ARMA models were fit using the F criterion and ARMA (2n,2n-1) modelling stra
 ### 4.1.1 A Simple ARMA model- ARMA(32,31)
 Used F-criterion and ARMA(2n,2n-1) modelling strategy to arrive at the right ARMA Model of order (32, 31).The RSS of the model is 8.5882e+06 and the standard deviation of the residuals is 130.6.
 
-![1.1](./images/11.png)
-<img src="images/11.png" width="40%">
+<img src="images/11.png" width="40%"> <img src="images/12.png" width="40%">
 
 In the figure 1.3, the AR roots colored in black have an absolute value greater than 1 and have periodicities of 2.5 and 3.5. From the fig1.3 ,one can see the presence of a real root close to -1 and complex roots (with absolute value greater than one) with seasonalities of 2,3,4,5,6,12,24 and 168. We will later check if these trends and seasonality exist while building a parsimonious model.
 
