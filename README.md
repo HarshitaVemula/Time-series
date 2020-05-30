@@ -39,7 +39,7 @@ The figure 3.1 shows the rolling forecasts of the energy consumption for 100 hou
 <img src="images/idk.png" width="80%">
 
 <img src="images/4142.png" width="80%"> 
-<img src="images/4351.png" width="40%">
+<img src="images/4351.png" width="80%">
 
 
 From the figures 4.1, 4.2 and 4.3, one can see that the distribution of the residuals of one step ahead forecast or rolling forecasts are drifting away (to the left) from the distribution of the residuals of the training data, indicating that the model is changing gradually. The drifting of the distribution to the left indicates that the test data has a mean different from that of the data used for training and that mean is less than that of the training data. Our hypothesis is further confirmed by the figure 5.1.This means that consumption of electric power tends to decrease towards to the end of December in Virginia.This seems reasonable as it is the time of Christmas,commercial buildings and schools,which consume a lot of power, would be closed and people might go away for holidays.
@@ -80,6 +80,6 @@ Note:The residuals obtained after deseasonalizing the data are of considerable m
 
 Upon comparing the different models built, we arrive at a conclusion that the parsimonious model significantly outperformed other models and is better when more than one step ahead forecasts are to be made. Deseasonalizing the data and then fitting ARMA (27,24) model would give better results when one step ahead forecasts are to be made.
 
-<img src="images/idk1.png" width="40%">
+<img src="images/idk1.png" width="80%">
 
 <img src="images/1010102.png" width="80%">
